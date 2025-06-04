@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the component](./assets/images/screenshot.jpg)
+![Screenshot of the component](./assets/images/ScreenshotCompleted.png)
 
 ### Links
 
