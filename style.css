@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Hanken';
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 500 700 800;
+}
+
+html, body {
+    background: var(--colors-blue-50, #F3F4FD);
+    font-family: 'Hanken', sans-serif;
+    font-size: 1.125rem;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    width: 46rem;
+    height: 32rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 2rem;
+    box-shadow: 15px 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+.column-wrap {
+    display: flex;
+    height: 100%;
+}
+
+.purple-wrap {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    border-radius: 2rem;
+    padding: 2.8125rem 3.375rem;
+}
+
+.row-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    gap: 2rem;
+}
+
+#result {
+    font-family: 'Hanken', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(241, 100%, 89%);
+    align-self: center;
+
+}
+
+#circle {
+    display: flex;
+    flex-direction: column;
+    width: 12.5rem;
+    height: 12.5rem;
+    background: var(--colors-gradient-1, linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%));
+    border-radius: 6.25rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+#circle-child-1 {
+    font-family: 'Hanken', sans-serif;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+}
+
+#circle-child-2 {
+    font-family: 'Hanken', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--colors-navy-200, #CAC9FF);
+    margin: 0;
+    opacity: 0.5168;
+}
+
+#great {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#great-child-one {
+    color: white;
+    text-align: center;
+    font-family: 'Hanken', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#great-child-two {
+    text-align: center;
+    color: var(--colors-navy-200, #CAC9FF);
+    font-family: 'Hanken', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.white-wrap {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 2rem;
+    padding: 2.78125rem 2.5rem;
+    gap: 2rem;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+#summary {
+    justify-content: flex-start;
+    font-family: 'Hanken', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--colors-navy-950, #303B59);
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+}
+
+.bars {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+#reaction-row {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    padding: 1.03125rem 1.1875rem;
+    background: var(--colors-red-50, #FFF6F6);;
+    align-items: center;
+    border-radius: 0.75rem;
+    height: 3.5rem;
+    justify-content: space-between;
+}
+
+#row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#reaction {
+    color: var(--colors-red-400, #F55);
+    font-family: 'Hanken', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+#reaction-rating {
+    text-align: right;
+    white-space: nowrap;
+    color: var(--colors-navy-950, #303B59);
+}
+
+#memory-row {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    padding: 1.03125rem 1.1875rem;
+    background: var(--colors-yellow-50, #FFFBF4);
+    align-items: center;
+    border-radius: 0.75rem;
+    height: 3.5rem;
+    width: 18rem;   
+    justify-content: space-between;
+}
+
+
+#row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#memory {
+    color: var(--colors-yellow-400, #FFB21E);
+    font-family: 'Hanken', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+#memory-rating {
+    white-space: nowrap;
+    text-align: right;
+    color: var(--colors-navy-950, #303B59);
+}
+
+
+#verbal-row {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    padding: 1.03125rem 1.1875rem;
+    background: var(--colors-green-50, #F2FCF9);
+    align-items: center;
+    border-radius: 0.75rem;
+    height: 3.5rem;
+    width: 18rem;   
+    justify-content: space-between;
+}
+
+
+#row-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#verbal {
+    color: var(--colors-green-500, #00BB8F);
+    font-family: 'Hanken', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+#verbal-rating {
+    white-space: nowrap;
+    text-align: right;
+    color: var(--colors-navy-950, #303B59);
+}
+
+
+#visual-row {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    padding: 1.03125rem 1.1875rem;
+    background: var(--colors-blue-50, #F3F4FD);
+    align-items: center;
+    border-radius: 0.75rem;
+    height: 3.5rem;
+    width: 18rem;   
+    justify-content: space-between;
+}
+
+
+#row-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#visual {
+    color:  var(--colors-blue-800, #1125D6);
+    font-family: 'Hanken', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+#visual-rating {
+    white-space: nowrap;
+    text-align: right;
+    color: var(--colors-navy-950, #303B59);
+}
+
+#opacity{
+    opacity: 0.5;
+}
+
+#continue {
+    height: 3.5rem;
+    border-radius: 8rem;
+    background: var(--colors-navy-950, #303B59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hankin', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+
+

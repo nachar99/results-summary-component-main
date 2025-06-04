@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="box" alt="Results box">
+    <div class="column-wrap">
+      <div class="purple-wrap">
+        <div class="row-wrap">
+          <h1 id="result">Your Result</h1>
+          <div id="circle" alt="Results in numbers">
+            <p id="circle-child-1">76</p>
+            <p id="circle-child-2">of 100</p>
+          </div>
+          
+          <div id="great">
+            <p id="great-child-one" alt="rating">Great</p>
+            <p id="great-child-two" alt="rating statistic">You scored higher than 65% of the people who have taken these tests.</p>
+          </div>
+        </div>
+      </div>
+      <div class="white-wrap">
+        <h2 id="summary">Summary</h2>
+        <div class="bars" role="list">
+          <div id="reaction-row" aria-label="Reaction rating" role="listitem">
+            <div id="row-one">
+              <img src="./assets/images/icon-reaction.svg" id="reaction-img" alt="Reaction icon">
+              <p id="reaction">Reaction</p>
+            </div>
+            <p id="reaction-rating" aria-label="Reaction rating from 100">80<span id="opacity"> / 100</span></p>
+          </div>
+          <div id="memory-row" aria-label="Memory rating" role="listitem">
+            <div id="row-two">
+              <img src="./assets/images/icon-memory.svg" id="memory-img" alt="Memory icon">
+              <p id="memory">Memory</p>
+            </div>
+            
+             <p id="memory-rating" aria-label="Memory rating from 100"> 92<span id="opacity"> / 100</span></p> 
+          </div>
+          <div id="verbal-row" aria-label="Verbal rating" role="listitem">
+            <div id="row-three">
+              <img src="./assets/images/icon-verbal.svg" id="verbal-img" alt="Verbal icon">
+              <p id="verbal">Verbal</p>
+            </div>
+            <p id="verbal-rating" aria-label="Verbal rating from 100">61<span id="opacity"> / 100</span></p>
+          </div>
+          <div id="visual-row" aria-label="Visual rating" role="listitem">
+            <div id="row-four">
+              <img src="./assets/images/icon-visual.svg" id="visual-img" alt="Visual icon">
+              <p id="visual">Visual</p>
+            </div>
+            <p id="visual-rating" aria-label="Visual rating from 100">72<span id="opacity"> / 100</span></p>
+          </div>
+        </div>
+        <button id="continue" aria-label="Continue button">Continue</button>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/nachar99">Abdulrahman Al-Nachar</a>.
+  </div>
+</body>
+</html>
