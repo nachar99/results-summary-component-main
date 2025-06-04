@@ -10,7 +10,7 @@
     font-weight: 500 700 800;
 }
 
-html, body {
+body {
     background: var(--colors-blue-50, #F3F4FD);
     font-family: 'Hanken', sans-serif;
     font-size: 1.125rem;
@@ -321,4 +321,7 @@ html, body {
     color: white;
 }
 
+#attribution {
+    position: absolute;
 
+}

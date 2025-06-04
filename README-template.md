@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/nachar99/results-summary)
-- Live Site URL: [Live Preview](https://nachar99.github.io/results-summary)
+- Solution URL: [GitHub Repo](https://github.com/nachar99/results-summary-component-main)
+- Live Site URL: [Live Preview](https://results-summary-component-main-seven-livid.vercel.app/)
 
 ---
 
